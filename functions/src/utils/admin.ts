@@ -1,5 +1,5 @@
 import admin from "firebase-admin"
-import serviceAccount from "../../serviceAccount.json";
+import serviceAccount from "../../../serviceAccount.json";
 
 const params = {               //clone json object into new object to make typescript happy
     type: serviceAccount.type,
